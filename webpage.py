@@ -1,5 +1,5 @@
 
-from llama_index.readers import SimpleWebPageReader
+from llama_index.readers.web import SimpleWebPageReader
 from llama_index import VectorStoreIndex
 import os
 from dotenv import load_dotenv
